@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<system.data>
+		<DbProviderFactories>
+			<remove invariant="MySql.Data.MySqlClient" />
+			<add name="MySQL Data Provider" invariant="MySql.Data.MySqlClient" description=".Net Framework Data Provider for MySQL" type="MySql.Data.MySqlClient.MySqlClientFactory, MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
+		</DbProviderFactories>
+	</system.data>
+	<connectionStrings>
+		<add name="PieceContext" providerName="MySql.Data.MySqlClient" connectionString="Server=localhost;Port=3306;Database=topmotive_catalogue_2023;Uid=keasX;Pwd='Prank98@!xxx'" />
+	</connectionStrings>
+	<mainMenuList>
+		<option name="handleManufacturers" value="List manufacturers"/>
+		<option name="handleModels" value="List models"/>
+		<option name="handleVehicleTypes" value="List vehicle types"/>
+		<option name="handleArticles" value="List articles"/>
+	</mainMenuList>
+	<defaultManufacturers>
+		<option name="manuf1" value="Audi"/>
+		<option name="manuf2" value="Aston Martin"/>
+		<option name="manuf3" value="BMW"/>
+		<option name="manuf4" value="Chevrolet"/>
+		<option name="manuf5" value="Ferrari"/>
+		<option name="manuf6" value="Honda"/>
+		<option name="manuf7" value="Hyundai"/>
+		<option name="manuf8" value="Kia"/>
+		<option name="manuf9" value="Jaguar"/>
+		<option name="manuf10" value="Lamburghini"/>
+		<option name="manuf11" value="Lexus"/>
+		<option name="manuf12" value="Mazda"/>
+		<option name="manuf13" value="Mercedes"/>
+		<option name="manuf14" value="Mini"/>
+		<option name="manuf15" value="Mitsubishi"/>
+		<option name="manuf16" value="Skoda"/>
+		<option name="manuf17" value="Suzuki"/>
+		<option name="manuf18" value="Tesla"/>
+		<option name="manuf19" value="Volvo"/>
+		<option name="manuf20" value="Volkswagen"/>
+	</defaultManufacturers>
+	<defaultPieceManufacturers>
+		<option name="manuf21" value="Robert Bosch GmbH"/>
+		<option name="manuf22" value="Denso Corp."/>
+		<option name="manuf23" value="Magna International Inc."/>
+		<option name="manuf24" value="Continental AG"/>
+		<option name="manuf25" value="Hyundai Mobis"/>
+		<option name="manuf26" value="Lear Corp."/>
+		<option name="manuf27" value="Febi Bilstein"/>
+		<option name="manuf28" value="Visteon"/>
+		<option name="manuf29" value="NGK Spark Plug Co., Ltd."/>
+		<option name="manuf30" value="AC Delco"/>
+	</defaultPieceManufacturers>
+	<defaultModels>
+		<option name="mod1" value="Sedan"/>
+		<option name="mod2" value="Sports Car"/>
+		<option name="mod3" value="Station Wagon"/>
+		<option name="mod4" value="Hatchback"/>
+		<option name="mod5" value="Convertible"/>
+		<option name="mod6" value="Sport Utility Vehicle (SUV)"/>
+		<option name="mod7" value="Minivan"/>
+		<option name="mod8" value="Pickup Truck"/>
+		<option name="mod9" value="Jeep"/>
+		<option name="mod10" value="Electric Car"/>
+		<option name="mod11" value="CUV/Crossover"/>
+		<option name="modf12" value="Spyder"/>
+		<option name="mod13" value="Hot Hatch"/>
+		<option name="mod14" value="Limousine"/>
+		<option name="mod15" value="UTE"/>
+		<option name="mod16" value="Pony Car"/>
+		<option name="mod17" value="Sports Sedan"/>
+		<option name="mod18" value="Military Vehicle"/>
+		<option name="mod19" value="Dragster"/>
+		<option name="mod20" value="Shooting Brake"/>
+	</defaultModels>
+	<defaultTypes>
+		<option name="typ1" value="3 Door"/>
+		<option name="typ2" value="5 Door"/>
+		<option name="typ3" value="S"/>
+		<option name="typ4" value="2023 Upcoming"/>
+		<option name="typ5" value="2.0"/>
+		<option name="typ6" value="1.4 TFSI"/>
+		<option name="typ7" value="2.0 TFSI Quattro"/>
+		<option name="typ8" value="V8"/>
+		<option name="typ9" value="Speed"/>
+		<option name="typ10" value="V8 normal edition"/>
+		<option name="typ11" value="Extended Wheelbase"/>
+		<option name="typ12" value="DBX"/>
+		<option name="typ13" value="1.5V Sensing"/>
+		<option name="typ14" value="3.9L"/>
+		<option name="typ15" value="SPV1 V12"/>
+		<option name="typ16" value="1.2 EX AT"/>
+		<option name="typ17" value="1.2 GT Line EX AT"/>
+		<option name="typ18" value="2.2D SX"/>
+		<option name="typ19" value="GT Convertible"/>
+		<option name="typ20" value="Pista"/>
+	</defaultTypes>
+	<defaultProductGroups>
+		<option name="pg1" value="Air filter"/>
+		<option name="pg2" value="Oil filter"/>
+		<option name="pg3" value="Lights"/>
+		<option name="pg4" value="Doors"/>
+		<option name="pg5" value="Battery"/>
+		<option name="pg6" value="Break"/>
+		<option name="pg7" value="Disc"/>
+		<option name="pg8" value="Break pad"/>
+		<option name="pg9" value="Stabilizer"/>
+		<option name="pg10" value="Suspension"/>
+		<option name="pg11" value="Board"/>
+		<option name="pg12" value="Engine"/>
+		<option name="pg13" value="Wheels"/>
+		<option name="pg14" value="Shock absorbsion"/>
+		<option name="pg15" value="Sensors"/>
+	</defaultProductGroups>
+</configuration>
